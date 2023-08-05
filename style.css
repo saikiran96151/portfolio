@@ -1,0 +1,249 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: black;
+    color: whitesmoke;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: black;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index:100; 
+}
+.logo{
+    font-size: 35px;
+    color: rgb(105, 21, 174);
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.navbar a{
+    font-size:18px;
+    color:#ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left:35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color:cadetblue;
+}
+
+
+.home{
+    height: 100vh;
+    width: 100;
+    background: url("pic3.jpeg"); 
+    background-size: cover;
+    border-radius: 8px;
+    position: left;
+    align-items:center;
+    display:flex;
+    padding:0 10%;
+}
+.home-content{
+    max-width:600px;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.home-content p{
+    margin: 20px 0 40px;
+    font-size: 16px;
+}
+.home-content .btn-box{
+    display: flex;
+    width: 345px;
+    height:50px;
+}
+.btn-box a{
+    align-items: center;
+    width: 200px;
+    height: 150%;
+    background:#00abf0;
+    border: 2px solid #00abf0;
+    border-radius:8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn-box a:nth-child(1){
+    background: transparent;
+    color: #00abf0;
+}
+.btn-box a:hover{
+    color:rgba(107, 10, 107, 0.936);
+}
+.text-center{
+    font-size: 32px;
+    text-align: center;
+    align-items: center;
+    position: center;
+    letter-spacing: 1px;
+    color: rgb(12, 148, 102);
+}
+.col-md-8{
+    line-height: 2.0;
+    letter-spacing: 1px;
+    color: indianred;
+}
+.col-md-6{
+    color: #ededed;
+}
+.col-md-4{
+    text-align: center;
+}
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.about-col-2 h3{
+    color: rgb(243, 23, 23);
+}
+a.visited{
+    color: gray;
+
+}
+a:hover{
+    color:rgb(139, 208, 171);
+}
+a:active{
+    color:rgba(209, 31, 31, 0.964)
+}
+.a{
+font-size: 60px;
+text-align: center;
+}
+    
+
+.sub{
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: rgba(107, 10, 107, 0.936);
+    
+}
+.abt{
+    font-size: x-large;
+    font-style: italic;
+}
+.tab-links{
+    font-size: x-large;
+    color: burlywood;
+}
+#courses{
+    padding: 30px 0;
+}
+.courses-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .contact-left{
+    flex-basis: 35%;
+  }
+  .contact-right{
+    flex-basis: 60%;
+  }
+  
+  .contact-right form{
+    width: 100%;
+  }
+  form input, form textarea{
+    width: 70%;
+    border: 0;
+    outline: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #120101;
+    font-size: 18px;
+    border-radius: 6px;
+    background-color: #ababab;
+  }
+  .sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgba(107, 10, 107, 0.936);
+  }
+.contact-right button{
+    align-items: center;
+    width: 200px;
+    height: 150%;
+    background: black;
+    border: 2px solid #00abf0;
+    border-radius:8px;
+    font-size: 19px;
+    color: rgba(209, 31, 31, 0.964);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 50%;
+    margin-left: 20%; 
+}
+button:hover{
+    color: chartreuse;
+}
+.contact-left p{
+    align-items: center;
+    width: 60%;
+    height: 20%;
+    background-color: black;
+    border: 2px solid: whitesmoke;
+    border-radius: 8px;
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.contact-left p:hover{
+    color: brown;
+}
+
+
+
